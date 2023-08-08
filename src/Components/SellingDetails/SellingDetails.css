@@ -1,0 +1,140 @@
+/* Here Strat Seller page design */
+#directory-and-item-details .container {
+  width: 80%;
+}
+.container .file-path p,
+.container .file-path p span a {
+  font-size: 12px;
+  color: #337ab7;
+  margin: 2rem 0 1rem;
+  word-spacing: 7px;
+}
+.container .file-path p span a:hover {
+  text-decoration: underline;
+}
+#directory-and-item-details .container .sell-items-picture {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+#directory-and-item-details .container .sell-items-picture img {
+  height: 100%;
+  object-fit: cover;
+}
+#directory-and-item-details .container .sell-info {
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+.sell-info hr {
+  border: 0.3px solid #ddd;
+  margin: 1rem 0 1rem;
+}
+#directory-and-item-details .container .sell-info .name-request {
+  display: flex;
+  justify-content: space-between;
+}
+#directory-and-item-details
+  .container
+  .sell-info
+  .name-request
+  div
+  .send-mail-form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+#directory-and-item-details
+  .container
+  .sell-info
+  .name-request
+  div
+  .send-mail-form
+  input {
+  background: #eaebec;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+#directory-and-item-details .container .sell-info .name-request h4 {
+  color: #2f3a4a;
+  font-size: 1.8rem;
+}
+#directory-and-item-details .container .sell-info .online-status {
+  font-size: 13px;
+}
+#directory-and-item-details .container .sell-info .each-info {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 300;
+}
+#directory-and-item-details .container .sell-info .each-info .name {
+  flex-basis: 30%;
+}
+
+#directory-and-item-details .container .sell-info .each-info .semi-colon {
+  flex-basis: 2%;
+}
+#directory-and-item-details .container .sell-info .each-info .name,
+#directory-and-item-details .container .sell-info .each-info .semi-colon,
+#directory-and-item-details .container .sell-info .about-info .about-person {
+  color: #90a4ae;
+  font-size: 14px;
+  word-spacing: 3px;
+  line-height: 45px;
+}
+#directory-and-item-details .container .sell-info .each-info .condition,
+#directory-and-item-details .container .sell-info .about-info .condition {
+  color: #263238;
+}
+#directory-and-item-details .container .sell-info .about-info p {
+  font-weight: 300;
+}
+#directory-and-item-details .container .search-preferance {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+#directory-and-item-details .container .search-preferance h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+#directory-and-item-details .container .sell-info h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+#directory-and-item-details .container .sell-info .location p {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+#directory-and-item-details .container .sell-info .location p {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+#directory-and-item-details .container .sell-info .location p span {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #00c4cb;
+  border-radius: 50%;
+}
+#directory-and-item-details .container .sell-info .all-location {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#directory-and-item-details .container .sell-info .all-location .location {
+  margin: 0rem 0.5rem 0rem;
+}

@@ -1,0 +1,111 @@
+/* Dash Board */
+#dash-board .upper-navigation {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 1rem;
+}
+#dash-board .upper-navigation .each-content-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+#dash-board .upper-navigation .each-content-box p {
+  color: #2f3a4a;
+  font-weight: 400;
+}
+#dash-board .container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  gap: 2rem;
+  padding: 4rem 0;
+  align-items: start;
+}
+#dash-board .container .left-side {
+  border: 1px solid #ddd;
+  padding: 2rem 5rem;
+}
+#dash-board .container .left-side .profile {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+#dash-board .container .left-side .profile img {
+  border-radius: 8px;
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+#dash-board .container .left-side .profile p {
+  color: #bdbdbd;
+}
+#dash-board .container .left-side .profile p a {
+  color: #678efb;
+}
+#dash-board .container .left-side .profile #linkedInProfile {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0e76a8;
+  font-size: 20px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+#dash-board .container .left-side .profile #linkedInProfile a {
+  color: #fff;
+}
+#dash-board .container .left-side .profile #send-mail .send-mail-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  gap: 2rem;
+}
+#send-mail .send-mail-box input {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#dash-board .container .right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#dash-board .container .right-side .about-user,
+#dash-board .container .right-side .listing-on-rent,
+#dash-board .container .right-side .editable-info {
+  display: flex;
+  gap: 2rem;
+  border: 1px solid #ddd;
+  padding: 2rem;
+}
+#dash-board .container .right-side .about-user {
+  justify-content: space-between;
+  align-items: center;
+}
+#dash-board .container .right-side .listing-on-rent {
+  flex-direction: column;
+}
+#dash-board .container .right-side .about-user div,
+#dash-board .container .right-side .listing-on-rent div {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+#dash-board .container .right-side .about-user div p {
+  font-size: 19px;
+}
+#dash-board .container .right-side .about-user div p a {
+  font-size: 14px;
+  color: #678efb;
+}
+#dash-board .container .right-side .listing-on-rent img {
+  padding: 3rem 13rem;
+}

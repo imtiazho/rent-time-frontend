@@ -1,0 +1,14 @@
+.categories {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.cate-btn {
+  padding: 10px 20px;
+  background-color: #003640;
+  color: #fff;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  font-size: 14px;
+}

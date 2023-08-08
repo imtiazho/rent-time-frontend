@@ -1,0 +1,124 @@
+/* Nav Bar Design Start */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav .container a h3 {
+  color: #fff;
+  font-size: 2rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003640;
+  height: 5rem;
+  width: 100%;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+nav .container ul {
+  display: flex;
+  height: 100%;
+}
+nav .container ul li {
+  transition: all 0.3s ease;
+}
+nav .container ul li a {
+  width: 7rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: all ease 0.3s;
+}
+nav .container ul li:hover {
+  background: #5b5b5b;
+}
+#search-bar-for-responsive {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #ddd;
+  display: none;
+}
+#search-bar-for-responsive input {
+  padding: 10px 15px;
+  background: transparent;
+}
+#search-bar-for-responsive input::placeholder {
+  font-size: 12px;
+}
+#search-bar-for-responsive i {
+  cursor: pointer;
+}
+.responsive-navbar {
+  display: none;
+}
+.responsive-navbar button {
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.dark-and-light-theme {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  gap: 1rem;
+}
+.dark-and-light-theme a.search-bar {
+  padding: 6px 15px;
+  background: #fff;
+  border-radius: 25px;
+}
+.dark-and-light-theme a.search-bar input {
+  background: transparent;
+  padding: 5px 10px;
+  width: 1rem;
+  transition: 0.5s;
+}
+.dark-and-light-theme a.search-bar i {
+  cursor: pointer;
+  color: #000;
+}
+.dark-and-light-theme a.search-bar input:focus {
+  width: 10rem;
+}
+.dark-and-light-theme button {
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+.dark-and-light-theme .light {
+  display: none;
+}
+.rela {
+  position: relative;
+}
+.othersPage {
+  position: absolute;
+  flex-direction: column;
+}
+.othersPage li {
+  background-color: #fff;
+  padding: 20px;
+}
+.othersPage li a {
+  color: #000 !important;
+}
+.othersPage li:hover {
+  background-color: #003640 !important;
+}
+.othersPage li:hover a {
+  color: #fff !important;
+}
+/* NavBar Design End */

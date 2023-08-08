@@ -1,0 +1,114 @@
+/* Here start rent fot room collect peremeter style  */
+#post-requirements {
+  padding: 3rem 0;
+}
+#post-requirements .container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+#post-requirements .container .left-side-collect-peremeter {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+#post-requirements .container .left-side-collect-peremeter h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+#post-requirements
+  .container
+  .left-side-collect-peremeter
+  .city-select-and-search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+#post-requirements
+  .container
+  .left-side-collect-peremeter
+  .city-select-and-search
+  select {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+}
+#post-requirements
+  .container
+  .left-side-collect-peremeter
+  .city-select-and-search
+  .input-field {
+  width: 65%;
+  border-bottom: 2px solid #ddd;
+}
+#post-requirements
+  .container
+  .left-side-collect-peremeter
+  .city-select-and-search
+  .input-field
+  i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+#post-requirements
+  .container
+  .left-side-collect-peremeter
+  .city-select-and-search
+  .input-field
+  input {
+  width: 90%;
+  padding: 12px 0;
+}
+#post-requirements .container .left-side-collect-peremeter .budget-and-filter {
+  width: 80%;
+  margin-top: 1rem;
+}
+#post-requirements
+  .container
+  .left-side-collect-peremeter
+  .budget-and-filter
+  .peremeter-btn
+  a {
+  background-color: #fff;
+  color: #9e9e9e;
+  padding: 9px;
+  border-radius: 0;
+  border: 1px solid #ddd;
+}
+#post-requirements
+  .container
+  .left-side-collect-peremeter
+  .budget-and-filter
+  .peremeter-btn
+  a
+  i {
+  margin-right: 2px;
+}
+#post-requirements .container .left-side-collect-peremeter .peremeter-img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem 0;
+}
+#post-requirements .container .left-side-collect-peremeter .peremeter-img img {
+  max-width: 55%;
+}
+#post-requirements .container .right-side-google-map {
+  width: 100%;
+  height: 100vh;
+}
+#post-requirements .container .right-side-google-map iframe {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+#post-requirements
+  .container
+  .left-side-collect-peremeter
+  .budget-and-filter
+  .peremeter-btn {
+  margin-right: 10px;
+}

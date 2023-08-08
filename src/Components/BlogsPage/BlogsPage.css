@@ -1,0 +1,96 @@
+/* Blog Page Design Strat */
+#blogs .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  width: 80%;
+}
+#blogs .container .img-details img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#blogs .container .img-details,
+#blogs .container .img-details {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+#blogs .container .img-details .details,
+#blogs .container .img-details .details {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: linear-gradient(to top, black, #00000000);
+  padding: 0.5rem 0 0.5rem;
+}
+#blogs .container .img-details h5,
+#blogs .container .img-details h5 {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+#blogs .container .img-details h5,
+#blogs .container .img-details h5,
+#blogs .container .img-details .details small,
+#blogs .container .img-details .details small {
+  margin: 0 1rem 0;
+}
+#blogs .container .img-details .details small,
+#blogs .container .img-details .details small {
+  color: #fff;
+  font-size: 12px;
+}
+/* Recent Post */
+#recent-posts {
+  margin-top: 3rem;
+}
+#recent-posts h3 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  position: relative;
+  left: 10%;
+}
+#blogs .container .single-row {
+  height: 100%;
+}
+#blogs .container .img-details .details p a {
+  color: #fff;
+  position: relative;
+  left: -75px;
+  transition: 0.3s;
+}
+#blogs .container .img-details .details:hover p a {
+  left: 17px;
+}
+#blogs .container .img-details .details p a:hover,
+#blogs .container .img-details .details p a:hover {
+  text-decoration: underline;
+}
+
+/* Blog Inner */
+#blog .container {
+  width: 80%;
+}
+#blog .container h3 {
+  color: #2f3a4a;
+}
+#blog .container small {
+  color: #9d9c9c;
+  font-weight: 300;
+}
+#blog .container img {
+  margin: 1.5rem 0 2rem;
+  border-radius: 5px;
+}
+#blog .container div {
+  margin-bottom: 0.4rem;
+}
+#blog .container img {
+  margin: 1.5rem 0 2rem;
+  border-radius: 5px;
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}

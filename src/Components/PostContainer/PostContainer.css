@@ -1,0 +1,93 @@
+/* Seller page design Satrt */
+#all-seller .container {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+#all-seller .container .seller {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+#all-seller .container .seller:hover {
+  border: 1px solid #003640;
+}
+#all-seller .container .seller img {
+  border-radius: 5px;
+  object-fit: cover;
+  height: 325px;
+}
+#all-seller .container .seller h5 {
+  color: #2f3a4a;
+  font-size: 1.125rem;
+  margin: 1rem 0 0.2rem;
+}
+.price-and-ageOfPerson,
+#all-seller .container .seller p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  color: #6d7580;
+  line-height: 17px;
+}
+#all-seller .container .seller .find-house-post {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 10px 0;
+}
+#all-seller .container .seller .find-house-post span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 13px;
+  color: #2f3a4a;
+}
+#all-seller .container .seller small {
+  color: #6d7580;
+  margin-top: 6px;
+  font-size: 0.7rem;
+}
+/* Seller page design end */
+
+/* Pagination Part design Start */
+#pagination .container {
+  width: 25%;
+}
+#pagination .container .numbers .number-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+#pagination .container .numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#pagination .container .numbers .number {
+  padding: 5px;
+  border: 1px solid #003640;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+#pagination .container .numbers .active,
+#pagination .container .numbers .number:hover {
+  background-color: #003640;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.next-button button a {
+  padding: 10px 15px;
+}
+/* Pagination Part design end */

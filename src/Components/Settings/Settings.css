@@ -1,0 +1,95 @@
+/* Here start settings style */
+#settings {
+  padding: 2rem 0;
+  background: #f2f4f6;
+}
+#settings .container {
+  width: 50%;
+  background: #fff;
+  padding: 1.6rem 2.5rem;
+}
+#settings .container h4 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+#settings .container .setting-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#settings .container .setting-items p {
+  color: #999;
+  font-weight: 500;
+  font-size: 14px;
+}
+#settings .container .setting-items .s-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#settings .container .setting-items .s-item p {
+  flex-basis: 30%;
+  color: #000;
+}
+#settings .container .setting-items .s-item input,
+#settings .container .setting-items .s-item select {
+  background: #f2f4f6;
+  width: 100%;
+  padding: 10px;
+}
+#settings .container .setting-items #setting-deactive-acc,
+#settings .container .setting-items #setting-change-pass {
+  width: 100%;
+  text-align: end;
+}
+#settings .container .setting-items #setting-change-pass a,
+#settings .container .setting-items .social p a,
+#settings .container .setting-items #setting-deactive-acc a {
+  color: #337ab7;
+  font-weight: normal;
+}
+.divider-border {
+  border: 1px solid #f2f4f6;
+}
+#settings .container .setting-items .social {
+  justify-content: space-between;
+}
+#settings .container .setting-items .s-item #notification-type {
+  display: flex;
+  align-items: center;
+}
+#settings .container .setting-items .s-item #notification-type p {
+  margin-right: 4rem;
+  font-weight: normal;
+}
+#settings .container .setting-items .s-item .toggle {
+  display: block;
+  width: 43px;
+  height: 15px;
+  border-radius: 25px;
+  background: #678efb7a;
+  position: relative;
+  transition: 0.3s;
+}
+#settings .container .setting-items .s-item .toggle .indicator {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  background: #678efb;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%),
+    0px 2px 1px -1px rgb(0 0 0 / 12%);
+  cursor: pointer;
+  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+#settings .container .setting-items .s-item .toggle .indicator.active {
+  left: 50%;
+}
+#settings .container #settings-update-btn {
+  width: 100%;
+  margin: 3rem 0 1rem 0;
+}
+/* Here end settings */

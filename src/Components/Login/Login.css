@@ -1,0 +1,126 @@
+/* Start Login Page */
+#login-page .container .form-container,
+#register-page .container .form-box,
+#second-step-form .container .outer-form .page {
+  border: 1px solid #ddd;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 7px;
+}
+#login-page .container .form-container h4,
+#register-page .container .form-box h4 {
+  font-weight: 500;
+}
+#login-page .container .form-container h4,
+#register-page .container .form-box h4,
+.form-container p,
+.form-box p {
+  text-align: center;
+}
+#login-page .container .form-container .input-field,
+#login-page .container .form-container .name-field div,
+#register-page .container .form-box .input-group .name-field div,
+#register-page .container .form-box .input-group .input-field,
+#second-step-form .container .outer-form .page .input-field {
+  padding: 0 1rem 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+#login-page .container .form-container .input-field i,
+#login-page .container .form-container .name-field div i,
+#register-page .container .form-box .input-group .name-field div i,
+#register-page .container .form-box .input-group .input-field i,
+#second-step-form .container .outer-form .page .input-field {
+  font-size: 20px;
+}
+#login-page .container .form-container .input-field input,
+#login-page .container .form-container .name-field div input,
+#register-page .container .form-box .input-group .name-field div input,
+#register-page .container .form-box .input-group .input-field input,
+#second-step-form .container .outer-form .page .input-field input {
+  padding: 0.7rem 0 0.7rem;
+  flex-basis: 91%;
+}
+#login-page .container .form-container #login-btn,
+#register-page .container .form-box .input-group .register-btn {
+  width: 45%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 25px;
+  color: #fff;
+  background: #003640;
+  font-size: 15px;
+  cursor: pointer;
+}
+.form-container p,
+#register-page .container {
+  font-size: 13px;
+  color: #003640;
+}
+.form-container #sign-link a:hover,
+.form-container p a:hover,
+.input-group a:hover {
+  text-decoration: underline;
+}
+#login-page .container .form-container .name-field,
+#register-page .container .form-box .input-group .name-field {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#login-page .container .form-container .name-field p,
+#register-page .container .form-box .input-group .name-field p {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+#login-page .container .form-container .condition p,
+#register-page .container .form-box .condition p {
+  margin-bottom: 10px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 14px;
+}
+
+/* Regitration from design Start*/
+#register-page .container .form-box {
+  position: relative;
+  overflow: hidden;
+}
+#register-page .container .form-box .input-group {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transition: all 0.3s ease;
+}
+.button-box {
+  position: relative;
+  width: 50%;
+  border-radius: 25px;
+  margin: 0 auto;
+  box-shadow: var(--custom-shadow);
+}
+#btn {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  background: #2f3a4a;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+#studentBtn {
+  color: #fff;
+}
+.btn-grp {
+  width: 100%;
+  text-align: center;
+}

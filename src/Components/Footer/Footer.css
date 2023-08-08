@@ -1,0 +1,128 @@
+/* Footer Design Start*/
+#footer {
+  background-color: #003640;
+}
+#footer .container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 4rem 0 0;
+}
+h4.footer-title,
+h4.footer-title a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 1.3rem;
+}
+.intro p {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.intro a {
+  color: #fff;
+  font-weight: 500;
+}
+.intro a:hover {
+  text-decoration: underline;
+}
+.Services ul li a {
+  color: #fff;
+  line-height: 35px;
+  font-weight: 300;
+}
+.short-link .tag-cloud-link {
+  padding: 5px;
+  border: 1px solid #828992;
+  line-height: 35px;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.short-link .tag-cloud-link:hover {
+  border: 1px solid rgb(92, 92, 92);
+}
+.subscribe .subscribeWrapper .subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.subscribe .subscribeWrapper .subscribe-form input,
+.subscribe .subscribeWrapper .subscribe-form button {
+  background: transparent;
+  border: 1px solid #828992;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+.subscribe .subscribeWrapper .subscribe-form button {
+  background-color: #fff;
+  color: #2f3a4a;
+  cursor: pointer;
+  border: none;
+  padding: 16px 18px;
+}
+.subscribe #social-links h4 {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.subscribe #social-links ul {
+  display: flex;
+  align-items: center;
+}
+.subscribe #social-links ul li a span {
+  color: #fff;
+  margin-right: 3rem;
+  padding: 5px;
+  border: 1px solid #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.subscribe #social-links ul li a span:hover {
+  background-color: #fff;
+  color: #2f3a4a;
+}
+#footer .hrtag {
+  display: block;
+}
+#footer .hrtag hr {
+  border: 0.5px solid #828992;
+}
+#footer .copyright-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0 2rem;
+}
+.copyright-message {
+  color: #fff;
+  letter-spacing: 0.3px;
+  font-weight: 300;
+  font-size: 14px;
+}
+.terms-privacy p {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.terms-privacy p a {
+  color: #fff;
+  font-weight: 300;
+}
+.tag-cloud-link {
+  margin: 0 2px;
+}
+/* Here end Footer Page design */

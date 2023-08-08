@@ -1,0 +1,42 @@
+/* Privacy and Policy Start */
+#top-banner {
+  background: linear-gradient(to top, #2f3a4ade, #2f3a4ade),
+    url("../../media/privacy-policy.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+#top-banner .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 80%;
+}
+#top-banner .container h5,
+#top-banner .container p a,
+#top-banner .container p {
+  color: #fff;
+}
+#top-banner .container h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  word-spacing: 3px;
+}
+#top-banner .container p {
+  font-weight: 300;
+}
+#main-details .container {
+  width: 80%;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+#main-details .container h3 {
+  font-weight: 500;
+}
+/* Privacy and Policy end */

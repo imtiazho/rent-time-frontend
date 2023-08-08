@@ -1,0 +1,274 @@
+/* Edit profile design */
+#dash-board .container .left-side .profile h3 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+#dash-board .container .left-side .profile .profile-area .delete-profile {
+  position: absolute;
+  right: 13%;
+  top: 5%;
+  width: 25px;
+  height: 25px;
+  background: #2f3a4a;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dash-board .container .left-side .profile .profile-area {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #2f3a4a62;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+#dash-board .container .left-side .profile .profile-area p a,
+#dash-board .container .left-side .profile .profile-area .delete-profile a i {
+  color: #fff;
+}
+
+#dash-board .container .right-side .editable-info {
+  flex-direction: column;
+}
+#dash-board .container .right-side .editable-info #user-name {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+#dash-board .container .right-side .editable-info .selected-box-in-edit {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+#dash-board .container .right-side .editable-info .selected-box-in-edit select {
+  width: 100%;
+  background: #eaebec;
+  padding: 10px;
+  cursor: pointer;
+}
+#dash-board .container .right-side .editable-info .selected-box-in-edit div p {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #input-row-edit {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #input-row-edit
+  input,
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  textarea {
+  background: #eaebec;
+  width: 100%;
+  padding: 10px;
+}
+
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #edit-check-box
+  label {
+  cursor: pointer;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #edit-check-box
+  label
+  input[type="checkbox"] {
+  display: none;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #edit-check-box
+  label
+  span {
+  border: 1px solid #2f3a4a;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #edit-check-box
+  label
+  input[type="checkbox"]:checked
+  ~ span {
+  background: #2f3a4a;
+  color: #fff;
+}
+#dash-board .container .right-side .editable-info .peronal-information {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  div {
+  margin-bottom: 1.5rem;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #input-row-edit {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: center;
+}
+#dash-board .container .right-side .editable-info .peronal-information form p {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #input-row-edit
+  input,
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  textarea {
+  background: #eaebec;
+  width: 100%;
+  padding: 10px;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  textarea {
+  resize: none;
+  height: 100px;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  .right-side-personal-details
+  #add-job
+  a {
+  color: #678efb;
+  font-size: 14px;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #edit-check-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem 0.4rem;
+  margin-top: 10px;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #edit-check-box
+  label {
+  cursor: pointer;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #edit-check-box
+  label
+  input[type="checkbox"] {
+  display: none;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #edit-check-box
+  label
+  span {
+  border: 1px solid #2f3a4a;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+#dash-board
+  .container
+  .right-side
+  .editable-info
+  .peronal-information
+  form
+  #edit-check-box
+  label
+  input[type="checkbox"]:checked
+  ~ span {
+  background: #2f3a4a;
+  color: #fff;
+}
+
+.dash-board .container {
+  align-items: flex-start;
+}
