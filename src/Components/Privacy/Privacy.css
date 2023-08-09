@@ -40,3 +40,15 @@
   font-weight: 500;
 }
 /* Privacy and Policy end */
+
+@media screen and (max-width: 950px) {
+  #top-banner .container {
+    width: 95%;
+  }
+  #main-details .container {
+    width: 90%;
+  }
+  #main-details .container p {
+    font-size: 13px;
+  }
+}
