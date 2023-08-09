@@ -131,3 +131,17 @@
     order: 2;
   }
 }
+
+@media screen and (max-width: 650px) {
+  #register-page .container .form-box .input-group .name-field {
+    flex-direction: column;
+    align-items: start;
+  }
+  #register-page .container .form-box .input-group .name-field div {
+    width: 100%;
+  }
+  #login-page .container,
+  #register-page .container {
+    width: 97%;
+  }
+}

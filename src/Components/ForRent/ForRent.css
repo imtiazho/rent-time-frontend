@@ -150,4 +150,22 @@
     .peremeter-btn {
     font-size: 13px;
   }
+  #post-requirements
+    .container
+    .left-side-collect-peremeter
+    .city-select-and-search {
+    flex-direction: column;
+  }
+  #post-requirements
+    .container
+    .left-side-collect-peremeter
+    .city-select-and-search
+    select,
+  #post-requirements
+    .container
+    .left-side-collect-peremeter
+    .city-select-and-search
+    .input-field {
+    width: 100%;
+  }
 }

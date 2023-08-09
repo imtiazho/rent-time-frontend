@@ -24,7 +24,7 @@ const Login = () => {
                         <p id="sign-link">Don't have an Account? <Link to='/signup'>Sign Up</Link></p>
                     </form>
 
-                    <img src={loginImage} alt="Picture of Login" />
+                    <img className='login-regImage' src={loginImage} alt="Picture of Login" />
                 </div>
             </div>
         </div>

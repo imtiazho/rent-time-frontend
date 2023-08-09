@@ -25,13 +25,13 @@ const Footer = () => {
                 <div class="tag-cloud">
                     <h4 class="footer-title">Tags</h4>
                     <div class="short-link">
-                        <a href="#" class="tag-cloud-link">apartment</a>
-                        <a href="#" class="tag-cloud-link">home</a>
-                        <a href="#" class="tag-cloud-link">rental</a>
-                        <a href="#" class="tag-cloud-link">rent</a>
-                        <a href="#" class="tag-cloud-link">house</a>
-                        <a href="#" class="tag-cloud-link">place</a>
-                        <a href="#" class="tag-cloud-link">sleep</a>
+                        <p class="tag-cloud-link">apartment</p>
+                        <p class="tag-cloud-link">home</p>
+                        <p class="tag-cloud-link">rental</p>
+                        <p class="tag-cloud-link">rent</p>
+                        <p class="tag-cloud-link">house</p>
+                        <p class="tag-cloud-link">place</p>
+                        <p class="tag-cloud-link">sleep</p>
                     </div>
                 </div>
 

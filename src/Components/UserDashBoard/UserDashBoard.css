@@ -144,4 +144,7 @@
   #dash-board .upper-navigation {
     grid-template-columns: repeat(1, 1fr);
   }
+  #dash-board .container .right-side .listing-on-rent img {
+    padding: 0;
+  }
 }
