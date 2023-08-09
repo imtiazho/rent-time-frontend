@@ -94,3 +94,37 @@
   width: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1300px) {
+  #blogs .container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  #blogs .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #blog .container {
+    width: 90%;
+  }
+  #blog .container img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  #blog .container {
+    width: 95%;
+  }
+  #blog .container img {
+    height: 300px;
+  }
+  #blog .container div p {
+    font-size: 13px;
+  }
+  #blog .container small {
+    font-size: 12px;
+  }
+}

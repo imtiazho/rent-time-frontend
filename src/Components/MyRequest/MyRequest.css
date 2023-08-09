@@ -32,3 +32,18 @@
   text-align: center;
   font-size: 35px;
 }
+
+@media screen and (max-width: 650px) {
+  #my-request-page .container {
+    margin: 2rem auto;
+  }
+  #my-request-page .container h3 {
+    font-size: 25px;
+  }
+  #my-request-page .container .request-showing-field h2 {
+    font-size: 30px;
+  }
+  #my-request-page .container .request-showing-field p small {
+    font-size: 13px;
+  }
+}

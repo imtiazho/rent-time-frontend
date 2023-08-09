@@ -17,7 +17,7 @@ const NavBar = () => {
                         <input type="text" name="" id="responive-searchbar" placeholder="Search share accommod..." /> <i className="fa fa-search" aria-hidden="true"></i>
                     </div>
 
-                    <ul id="nav-items">
+                    <ul id="nav-items" className={`${navOpen && "open"}`}>
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/about'>About Us</Link></li>
                         <li><Link to='/blogs-page'>Blog</Link></li>

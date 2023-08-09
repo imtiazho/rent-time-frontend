@@ -1,5 +1,5 @@
 import React from 'react';
-import loginImage from '../../media/login.svg';
+import signupImage from '../../media/signup.svg';
 import { Link } from 'react-router-dom';
 
 const SignUp = () => {
@@ -74,7 +74,7 @@ const SignUp = () => {
                         </form> */}
                     </div>
 
-                    <img src={loginImage} alt="Picture of Login Picture" />
+                    <img src={signupImage} alt="Picture of Login Picture" />
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import blogImage from '../../media/blog-9.jpg';
 import Footer from '../Footer/Footer';
+import '../BlogsPage/BlogsPage.css';
 
 const BlogDetails = () => {
     return (

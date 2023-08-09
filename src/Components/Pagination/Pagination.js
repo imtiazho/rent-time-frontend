@@ -26,10 +26,9 @@ const Pagination = () => {
                         <div class="number">
                             <p>7</p>
                         </div>
-                    </div>
-
-                    <div class="next-button">
-                        <button><Link>Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link></button>
+                        <div class="next-button">
+                            <button><Link>Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link></button>
+                        </div>
                     </div>
                 </div>
             </div>

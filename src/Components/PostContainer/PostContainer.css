@@ -58,11 +58,11 @@
 
 /* Pagination Part design Start */
 #pagination .container {
-  width: 25%;
+  width: 100%;
 }
 #pagination .container .numbers .number-wrapper {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   gap: 1rem;
 }
 #pagination .container .numbers {
@@ -72,13 +72,13 @@
 }
 #pagination .container .numbers .number {
   padding: 5px;
-  border: 1px solid #003640;
   width: 2rem;
   height: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
+  background-color: #ddd;
 }
 #pagination .container .numbers .active,
 #pagination .container .numbers .number:hover {
@@ -89,5 +89,19 @@
 }
 .next-button button a {
   padding: 10px 15px;
+  background-color: #003640;
+}
+.next-button button a:hover {
+  color: #fff;
 }
 /* Pagination Part design end */
+@media screen and (max-width: 1150px) {
+  #all-seller .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 850px) {
+  #all-seller .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -93,3 +93,27 @@
   margin: 3rem 0 1rem 0;
 }
 /* Here end settings */
+
+@media screen and (max-width: 1250px) {
+  #settings .container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #settings .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #settings .container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #settings .container {
+    padding: 1.6rem 2rem;
+  }
+}

@@ -109,3 +109,39 @@
 #dash-board .container .right-side .listing-on-rent img {
   padding: 3rem 13rem;
 }
+
+@media screen and (max-width: 1250px) {
+  #dash-board .upper-navigation,
+  #dash-board .container {
+    width: 90%;
+  }
+  #dash-board .container .left-side {
+    padding: 1rem 3rem;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  #dash-board .upper-navigation,
+  #dash-board .container {
+    width: 95%;
+  }
+  #dash-board .upper-navigation {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #dash-board .container .left-side {
+    padding: 1rem 3rem;
+  }
+  #dash-board .container {
+    grid-template-columns: 3fr 4fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #dash-board .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #dash-board .upper-navigation {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

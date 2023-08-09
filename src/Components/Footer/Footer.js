@@ -9,7 +9,7 @@ const Footer = () => {
                 <div class="intro">
                     <h4 class="footer-title"><a href="#" class="logo">Rent Time</a></h4>
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    <a href="about.html">Read more <span class="fa fa-chevron-right" style={{ fontSize: "11px" }}></span></a>
+                    <a href="">Read more <span class="fa fa-chevron-right" style={{ fontSize: "11px" }}></span></a>
                 </div>
 
                 <div class="Services">

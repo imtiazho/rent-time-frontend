@@ -19,7 +19,7 @@
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #025464;
+  background-color: #003640;
 }
 a {
   color: #525252;
@@ -75,4 +75,8 @@ section {
 }
 button {
   background: transparent;
+}
+
+/* Here Strat Responsive */
+@media screen and (max-width: 1100px) {
 }

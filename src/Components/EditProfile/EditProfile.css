@@ -272,3 +272,12 @@
 .dash-board .container {
   align-items: flex-start;
 }
+
+@media screen and (max-width: 950px) {
+  #dash-board .container .right-side .editable-info .peronal-information {
+    flex-direction: column;
+  }
+  #dash-board .container .right-side .editable-info .selected-box-in-edit {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

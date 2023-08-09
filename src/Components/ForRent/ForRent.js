@@ -26,15 +26,15 @@ const ForRent = () => {
                     </div>
 
                     <div class="budget-and-filter">
-                        <button class="peremeter-btn"><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Neighborhood</a></button>
+                        <button class="peremeter-btn"><i class="fa fa-map-marker" aria-hidden="true"></i> Neighborhood</button>
 
-                        <button class="peremeter-btn"><a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> Move Date</a></button>
+                        <button class="peremeter-btn"><i class="fa fa-calendar-o" aria-hidden="true"></i> Move Date</button>
 
-                        <button class="peremeter-btn"><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> Any</a></button>
+                        <button class="peremeter-btn"><i class="fa fa-clock-o" aria-hidden="true"></i> Any</button>
 
-                        <button class="peremeter-btn"><a href="#"><i class="fa fa-money" aria-hidden="true"></i> Budget</a></button>
+                        <button class="peremeter-btn"><i class="fa fa-money" aria-hidden="true"></i> Budget</button>
 
-                        <button class="peremeter-btn"><a href="#"><i class="fa fa-filter" aria-hidden="true"></i> More Filters</a></button>
+                        <button class="peremeter-btn"><i class="fa fa-filter" aria-hidden="true"></i> More Filters</button>
                     </div>
 
                     <div class="peremeter-img">

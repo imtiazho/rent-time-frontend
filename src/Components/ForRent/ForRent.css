@@ -63,27 +63,20 @@
 #post-requirements .container .left-side-collect-peremeter .budget-and-filter {
   width: 80%;
   margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 #post-requirements
   .container
   .left-side-collect-peremeter
   .budget-and-filter
-  .peremeter-btn
-  a {
+  .peremeter-btn {
   background-color: #fff;
   color: #9e9e9e;
   padding: 9px;
   border-radius: 0;
   border: 1px solid #ddd;
-}
-#post-requirements
-  .container
-  .left-side-collect-peremeter
-  .budget-and-filter
-  .peremeter-btn
-  a
-  i {
-  margin-right: 2px;
 }
 #post-requirements .container .left-side-collect-peremeter .peremeter-img {
   display: flex;
@@ -105,10 +98,56 @@
   border-radius: 5px;
 }
 
-#post-requirements
-  .container
-  .left-side-collect-peremeter
-  .budget-and-filter
-  .peremeter-btn {
-  margin-right: 10px;
+@media screen and (max-width: 1300px) {
+  #post-requirements .container {
+    width: 95%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  #post-requirements .container .left-side-collect-peremeter .peremeter-img {
+    justify-content: center;
+  }
+  .left-side-collect-peremeter {
+    order: 2;
+  }
+  #post-requirements .container .right-side-google-map {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #post-requirements .container .right-side-google-map {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #post-requirements .container .right-side-google-map {
+    height: 300px;
+  }
+  #post-requirements .container .left-side-collect-peremeter h2 {
+    font-size: 25px;
+  }
+  #post-requirements
+    .container
+    .left-side-collect-peremeter
+    .city-select-and-search
+    select {
+    font-size: 13px;
+  }
+  #post-requirements
+    .container
+    .left-side-collect-peremeter
+    .city-select-and-search
+    .input-field
+    input {
+    font-size: 13px;
+  }
+  #post-requirements
+    .container
+    .left-side-collect-peremeter
+    .budget-and-filter
+    .peremeter-btn {
+    font-size: 13px;
+  }
 }

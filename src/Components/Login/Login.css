@@ -124,3 +124,10 @@
   width: 100%;
   text-align: center;
 }
+
+@media screen and (max-width: 1300px) {
+  #login-page .container .form-container,
+  #register-page .container .form-box {
+    order: 2;
+  }
+}

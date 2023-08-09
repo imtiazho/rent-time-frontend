@@ -107,7 +107,7 @@ h4.footer-title a {
   align-items: center;
   padding: 2rem 0 2rem;
 }
-.copyright-message {
+.copyright-message p {
   color: #fff;
   letter-spacing: 0.3px;
   font-weight: 300;
@@ -117,6 +117,7 @@ h4.footer-title a {
   display: flex;
   align-items: center;
   gap: 3rem;
+  font-size: 14px;
 }
 .terms-privacy p a {
   color: #fff;
@@ -126,3 +127,40 @@ h4.footer-title a {
   margin: 0 2px;
 }
 /* Here end Footer Page design */
+
+@media screen and (max-width: 1250px) {
+  #footer .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #footer .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #footer .copyright-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .copyright-message p {
+    font-size: 12px;
+  }
+  .terms-privacy p a {
+    font-size: 12px;
+  }
+  .Services ul li a {
+    font-size: 13px;
+  }
+  .intro p {
+    font-size: 13px;
+  }
+  .intro a {
+    font-size: 13px;
+  }
+}

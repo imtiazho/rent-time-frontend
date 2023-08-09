@@ -21,6 +21,7 @@ nav .container {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  position: relative;
 }
 nav .container ul {
   display: flex;
@@ -121,4 +122,40 @@ nav .container ul li:hover {
 .othersPage li:hover a {
   color: #fff !important;
 }
+
+.open {
+  display: flex !important;
+}
+
 /* NavBar Design End */
+
+@media screen and (max-width: 950px) {
+  .responsive-navbar {
+    display: block;
+  }
+  nav .container ul {
+    flex-direction: column !important;
+    top: 80px;
+    position: absolute;
+    gap: 2rem;
+    background-color: #003640;
+    width: 100%;
+    height: fit-content;
+    padding: 20px 0;
+    align-items: center;
+    display: none;
+  }
+  nav .container ul li a {
+    width: auto;
+  }
+  nav .container ul li {
+    padding: 16px 0;
+    width: 100%;
+  }
+  .othersPage {
+    top: 50px !important;
+    gap: 0 !important;
+    padding: 0px !important;
+    display: block !important;
+  }
+}

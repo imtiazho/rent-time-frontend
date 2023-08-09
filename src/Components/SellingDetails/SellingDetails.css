@@ -126,7 +126,7 @@
   display: inline-block;
   width: 5px;
   height: 5px;
-  background: #00c4cb;
+  background: #00bc00;
   border-radius: 50%;
 }
 #directory-and-item-details .container .sell-info .all-location {
@@ -137,4 +137,50 @@
 
 #directory-and-item-details .container .sell-info .all-location .location {
   margin: 0rem 0.5rem 0rem;
+}
+
+@media screen and (max-width: 1200px) {
+  #directory-and-item-details .container {
+    width: 90%;
+  }
+  #directory-and-item-details .container .sell-info {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #directory-and-item-details .container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #directory-and-item-details .container {
+    width: 98%;
+  }
+  #directory-and-item-details .container .sell-info {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #directory-and-item-details .container {
+    width: 98%;
+  }
+  #directory-and-item-details .container .sell-items-picture {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #directory-and-item-details .container .sell-info {
+    width: 100%;
+  }
+  #directory-and-item-details .container .sell-info .name-request {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #directory-and-item-details .container .sell-info .online-status {
+    margin-top: 1rem;
+  }
+  #directory-and-item-details .container .sell-info {
+    padding: 14px;
+  }
 }

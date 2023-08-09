@@ -63,3 +63,31 @@
   font-size: 13px;
 }
 /* Testimonials  */
+
+@media screen and (max-width: 1100px) {
+  .testimonial {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .testimonial {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .testimonial {
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .testimonial {
+    width: 100%;
+  }
+  .head {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
