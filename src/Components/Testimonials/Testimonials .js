@@ -37,7 +37,7 @@ const Testimonials = () => {
                         </div>
                     </div>
 
-                    <p>Fast response, incredible service and good behavior. Work is up to the mark. Can communicate properly for better comprehension. Very much recommended. 👍</p>
+                    <p>I recently used XYZ Rentals for a weekend getaway, and I couldn't be happier. The booking process was a breeze, the vehicle was clean and well-maintained, and the staff was friendly and efficient. I'll definitely choose them again for my next trip. 👍</p>
                 </SwiperSlide>
 
                 <SwiperSlide className='slide'>
@@ -62,7 +62,7 @@ const Testimonials = () => {
                         </div>
                     </div>
 
-                    <p>Remarkable service and upright behavior. Work is exceptionally good. Can communicate properly for betterment. Can work accordingly just like you wanted. worth it recommended. 🌼</p>
+                    <p>My experience with ABC Rentals was disappointing. The car I rented had a strong odor, and the check-in process was slow and disorganized 🌼</p>
                 </SwiperSlide>
             </Swiper>
         </div>
